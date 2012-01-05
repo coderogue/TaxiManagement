@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TaxiManager">
+</Property><Property Name="Solution File" Value="C:\PlayGround\Personal\TaxiManager\TaxiManager.sln">
+</Property><Property Name="User Options File" Value="C:\PlayGround\Personal\TaxiManager\TaxiManager.suo">
+</Property><Property Name="Date" Value="Wednesday, November 30, 2011">
+</Property><Property Name="Time" Value="16:23 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="TaxiManager.sln" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager.sln">
+</Event><Event ErrorLevel="0" Project="" Source="TaxiManager.suo" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager.suo">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\TaxiManager.csproj" Description="Project file successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\TaxiManager.csproj">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Classes\CConstant.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Classes\CConstant.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Classes\CDBase.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Classes\CDBase.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Classes\Messages.Designer.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Classes\Messages.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Controller\BodyTypeController.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Controller\BodyTypeController.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Controller\CarBuildController.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Controller\CarBuildController.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Controller\CarModelController.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Controller\CarModelController.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Model\CarBuildModel.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Model\CarBuildModel.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Program.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Program.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\View\MDITaxiManager.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\View\MDITaxiManager.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\View\MDITaxiManager.Designer.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\View\MDITaxiManager.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\View\USSideBanner.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\View\USSideBanner.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\View\USSideBanner.Designer.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\View\USSideBanner.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\View\VehicleSettings\CarBuildForm.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\View\VehicleSettings\CarBuildForm.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\View\VehicleSettings\CarBuildForm.Designer.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\View\VehicleSettings\CarBuildForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\View\VehicleSettings\CarBuildView.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\View\VehicleSettings\CarBuildView.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\View\VehicleSettings\CarBuildView.Designer.cs" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\View\VehicleSettings\CarBuildView.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\app.config" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\app.config">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Properties\Settings.settings" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Classes\Messages.resx" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Classes\Messages.resx">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\Properties\Resources.resx" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\View\MDITaxiManager.resx" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\View\MDITaxiManager.resx">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\View\USSideBanner.resx" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\View\USSideBanner.resx">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\View\VehicleSettings\CarBuildForm.resx" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\View\VehicleSettings\CarBuildForm.resx">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\View\VehicleSettings\CarBuildView.resx" Description="File successfully backed up as C:\PlayGround\Personal\TaxiManager\Backup\TaxiManager\View\VehicleSettings\CarBuildView.resx">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\TaxiManager.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TaxiManager" Source="TaxiManager\TaxiManager.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TaxiManager.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TaxiManager.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TaxiManager" Source="TaxiManager\TaxiManager.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

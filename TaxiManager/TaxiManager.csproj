@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{13B4DB99-06DB-4182-901E-6362347CA4F8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TaxiManager</RootNamespace>
+    <AssemblyName>TaxiManager</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.4.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\CConstant.cs" />
+    <Compile Include="Classes\CDBase.cs" />
+    <Compile Include="Classes\CValidation.cs" />
+    <Compile Include="Classes\Messages.Designer.cs" />
+    <Compile Include="Controller\BodyTypeController.cs" />
+    <Compile Include="Controller\CarBuildController.cs" />
+    <Compile Include="Controller\CarModelController.cs" />
+    <Compile Include="Controller\ClassTypeController.cs" />
+    <Compile Include="Controller\ColourController.cs" />
+    <Compile Include="Controller\CompanyController.cs" />
+    <Compile Include="Controller\FuelController.cs" />
+    <Compile Include="Controller\OwnerStatusController.cs" />
+    <Compile Include="Controller\RoadTaxController.cs" />
+    <Compile Include="Controller\TaxiController.cs" />
+    <Compile Include="Controller\USSideBannerController.cs" />
+    <Compile Include="Controller\VehicleCategoryController.cs" />
+    <Compile Include="Model\BodyTypeModel.cs" />
+    <Compile Include="Model\CarBuildModel.cs" />
+    <Compile Include="Model\CarModelModel.cs" />
+    <Compile Include="Model\ClassTypeModel.cs" />
+    <Compile Include="Model\ColourModel.cs" />
+    <Compile Include="Model\CompanyModel.cs" />
+    <Compile Include="Model\FuelModel.cs" />
+    <Compile Include="Model\OwnerStatusModel.cs" />
+    <Compile Include="Model\RoadTaxModel.cs" />
+    <Compile Include="Model\TaxiDriverModel.cs" />
+    <Compile Include="Model\TaxiModel.cs" />
+    <Compile Include="Model\VehicleCategoryModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="taxi_managementDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>taxi_managementDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="View\Companies\CompanyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Companies\CompanyForm.Designer.cs">
+      <DependentUpon>CompanyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Companies\CompanyView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Companies\CompanyView.Designer.cs">
+      <DependentUpon>CompanyView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Reminders\InsuranceView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Reminders\InsuranceView.Designer.cs">
+      <DependentUpon>InsuranceView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Reminders\PupakomView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Reminders\PupakomView.Designer.cs">
+      <DependentUpon>PupakomView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Reminders\RoadTaxView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Reminders\RoadTaxView.Designer.cs">
+      <DependentUpon>RoadTaxView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Reminders\TaxiLicenseView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Reminders\TaxiLicenseView.Designer.cs">
+      <DependentUpon>TaxiLicenseView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Taxi\TaxiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Taxi\TaxiForm.Designer.cs">
+      <DependentUpon>TaxiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Taxi\TaxiView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Taxi\TaxiView.Designer.cs">
+      <DependentUpon>TaxiView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\BodyTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\BodyTypeForm.Designer.cs">
+      <DependentUpon>BodyTypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\BodyTypeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\BodyTypeView.Designer.cs">
+      <DependentUpon>BodyTypeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\CarModelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\CarModelForm.Designer.cs">
+      <DependentUpon>CarModelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\CarModelView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\CarModelView.Designer.cs">
+      <DependentUpon>CarModelView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\ClassTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\ClassTypeForm.Designer.cs">
+      <DependentUpon>ClassTypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\ClassTypeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\ClassTypeView.Designer.cs">
+      <DependentUpon>ClassTypeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\ColourForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\ColourForm.Designer.cs">
+      <DependentUpon>ColourForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\ColourView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\ColourView.Designer.cs">
+      <DependentUpon>ColourView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\FuelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\FuelForm.Designer.cs">
+      <DependentUpon>FuelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\FuelView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\FuelView.Designer.cs">
+      <DependentUpon>FuelView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\OwnerStatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\OwnerStatusForm.Designer.cs">
+      <DependentUpon>OwnerStatusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\OwnerStatusView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\OwnerStatusView.Designer.cs">
+      <DependentUpon>OwnerStatusView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\VehicleCategoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\VehicleCategoryForm.Designer.cs">
+      <DependentUpon>VehicleCategoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\VehicleCategoryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\VehicleCategoryView.Designer.cs">
+      <DependentUpon>VehicleCategoryView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Classes\Messages.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Companies\CompanyForm.resx">
+      <DependentUpon>CompanyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Companies\CompanyView.resx">
+      <DependentUpon>CompanyView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MDITaxiManager.resx">
+      <DependentUpon>MDITaxiManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Reminders\RoadTaxView.resx">
+      <DependentUpon>RoadTaxView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Taxi\TaxiForm.resx">
+      <DependentUpon>TaxiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Taxi\TaxiView.resx">
+      <DependentUpon>TaxiView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\USSideBanner.resx">
+      <DependentUpon>USSideBanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\BodyTypeForm.resx">
+      <DependentUpon>BodyTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\BodyTypeView.resx">
+      <DependentUpon>BodyTypeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\CarBuildForm.resx">
+      <DependentUpon>CarBuildForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\CarBuildView.resx">
+      <DependentUpon>CarBuildView.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\VehicleSettings\CarModelForm.resx">
+      <DependentUpon>CarModelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\CarModelView.resx">
+      <DependentUpon>CarModelView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\ClassTypeForm.resx">
+      <DependentUpon>ClassTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\ClassTypeView.resx">
+      <DependentUpon>ClassTypeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\ColourForm.resx">
+      <DependentUpon>ColourForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\ColourView.resx">
+      <DependentUpon>ColourView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\FuelForm.resx">
+      <DependentUpon>FuelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\FuelView.resx">
+      <DependentUpon>FuelView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\OwnerStatusForm.resx">
+      <DependentUpon>OwnerStatusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\OwnerStatusView.resx">
+      <DependentUpon>OwnerStatusView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\VehicleCategoryForm.resx">
+      <DependentUpon>VehicleCategoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VehicleSettings\VehicleCategoryView.resx">
+      <DependentUpon>VehicleCategoryView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="View\MDITaxiManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MDITaxiManager.Designer.cs">
+      <DependentUpon>MDITaxiManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\USSideBanner.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\USSideBanner.Designer.cs">
+      <DependentUpon>USSideBanner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\CarBuildForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\CarBuildForm.Designer.cs">
+      <DependentUpon>CarBuildForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VehicleSettings\CarBuildView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VehicleSettings\CarBuildView.Designer.cs">
+      <DependentUpon>CarBuildView.cs</DependentUpon>
+    </Compile>
+    <None Include="taxi_managementDataSet.xsc">
+      <DependentUpon>taxi_managementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="taxi_managementDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>taxi_managementDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="taxi_managementDataSet.xss">
+      <DependentUpon>taxi_managementDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reports\" />
+    <Folder Include="View\PersonalSettings\" />
+    <Folder Include="View\TaxiDrivers\" />
+    <Folder Include="View\UserSettings\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

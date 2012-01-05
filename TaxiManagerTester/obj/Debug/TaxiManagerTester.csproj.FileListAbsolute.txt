@@ -1,0 +1,9 @@
+C:\PlayGround\Personal\TaxiManager\TaxiManagerTester\obj\Debug\ResolveAssemblyReference.cache
+C:\PlayGround\Personal\TaxiManager\TaxiManagerTester\bin\Debug\TaxiManagerTester.dll
+C:\PlayGround\Personal\TaxiManager\TaxiManagerTester\bin\Debug\TaxiManagerTester.pdb
+C:\PlayGround\Personal\TaxiManager\TaxiManagerTester\obj\Debug\TaxiManagerTester.dll
+C:\PlayGround\Personal\TaxiManager\TaxiManagerTester\obj\Debug\TaxiManagerTester.pdb
+C:\PlayGround\Personal\TaxiManager\TaxiManagerTester\bin\Debug\TaxiManager.exe
+C:\PlayGround\Personal\TaxiManager\TaxiManagerTester\bin\Debug\TaxiManager.pdb
+C:\PlayGround\Personal\TaxiManager\TaxiManagerTester\bin\Debug\TaxiManager_Accessor.exe
+C:\PlayGround\Personal\TaxiManager\TaxiManagerTester\bin\Debug\TaxiManager_Accessor.pdb

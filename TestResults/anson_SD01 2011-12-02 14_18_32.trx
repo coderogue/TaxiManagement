@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6bcc49df-4d7b-466e-ade9-bdc11a53dd54" name="anson@SD01 2011-12-02 14:18:32" runUser="GIT\anson" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0038d367-abc3-4d32-bbd3-945e17e2dbb3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="anson_SD01 2011-12-02 14_18_32" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-02T14:18:32.2938959+08:00" queuing="2011-12-02T14:18:37.1694083+08:00" start="2011-12-02T14:18:37.3283924+08:00" finish="2011-12-02T14:18:37.3783874+08:00" />
+  <ResultSummary outcome="NotRunnable">
+    <Counters total="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="1" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ExecuteCommand" storage="c:\playground\personal\taximanager\taximanagertester\bin\debug\taximanagertester.dll" id="1fdb7fcf-898f-1b6b-eee8-5bcfe68864da">
+      <Execution id="498ebab2-3ead-49fc-a811-a4213c3d2eef" />
+      <TestMethod codeBase="C:/PlayGround/Personal/TaxiManager/TaxiManagerTester/bin/Debug/TaxiManagerTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TaxiManagerTester.ExecuteCommandTextCase, TaxiManagerTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecuteCommand" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1fdb7fcf-898f-1b6b-eee8-5bcfe68864da" executionId="498ebab2-3ead-49fc-a811-a4213c3d2eef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="498ebab2-3ead-49fc-a811-a4213c3d2eef" testId="1fdb7fcf-898f-1b6b-eee8-5bcfe68864da" testName="ExecuteCommand" computerName="SD01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="498ebab2-3ead-49fc-a811-a4213c3d2eef">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method ExecuteCommand defined in class TaxiManagerTester.ExecuteCommandTextCase does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="626d34ef-b117-491d-a1e8-22358c3d2e58" name="anson@SD01 2011-12-02 14:29:31" runUser="GIT\anson" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0038d367-abc3-4d32-bbd3-945e17e2dbb3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="anson_SD01 2011-12-02 14_29_31">
+      <DeploymentItem filename="C:\PlayGround\Personal\TaxiManager\TaxiManager\bin\Debug\TaxiManager.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-02T14:29:31.9672844+08:00" queuing="2011-12-02T14:29:35.6422844+08:00" start="2011-12-02T14:29:35.8112844+08:00" finish="2011-12-02T14:30:14.4552844+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SD01" outcome="Error" timestamp="2011-12-02T14:30:14.4512844+08:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ExecuteCommandTest" storage="c:\playground\personal\taximanager\taximanagertester\bin\debug\taximanagertester.dll" id="abb72601-2275-514a-2777-444e7c6afe1b">
+      <Execution id="9b881af9-7330-4caf-b12f-613edff55879" />
+      <TestMethod codeBase="C:/PlayGround/Personal/TaxiManager/TaxiManagerTester/bin/Debug/TaxiManagerTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TaxiManagerTester.CDBaseTest, TaxiManagerTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecuteCommandTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="abb72601-2275-514a-2777-444e7c6afe1b" executionId="9b881af9-7330-4caf-b12f-613edff55879" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9b881af9-7330-4caf-b12f-613edff55879" testId="abb72601-2275-514a-2777-444e7c6afe1b" testName="ExecuteCommandTest" computerName="SD01" duration="00:00:38.5280000" startTime="2011-12-02T14:29:35.9272844+08:00" endTime="2011-12-02T14:30:14.4552844+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b881af9-7330-4caf-b12f-613edff55879">
+    </UnitTestResult>
+  </Results>
+</TestRun>
